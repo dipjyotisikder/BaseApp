@@ -24,14 +24,5 @@ namespace BaseApp.Controllers
             return Ok("Not index result");
         }
 
-        //[HttpGet]
-        //public IActionResult Index(int id, int uid)
-        //{
-
-        //    return Ok("NotIndexEver result");
-        //}
-
-
-        // Unique path to get something unique
     }
 }
