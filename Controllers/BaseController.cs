@@ -12,8 +12,7 @@ namespace BaseApp.Controllers
         [Route("first-index")]
         public IActionResult Index()
         {
-
-            return Ok("index result");
+            return Ok("first index result");
         }
 
         [HttpGet]
@@ -21,7 +20,15 @@ namespace BaseApp.Controllers
         public IActionResult Index(int id)
         {
 
-            return Ok("Not index result");
+            return Ok("Second Index result");
+        }
+
+        [HttpGet]
+        [Route("third-index")]
+        public IActionResult Index(int id, int uid)
+        {
+
+            return Ok("Third index result");
         }
 
     }
